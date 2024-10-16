@@ -16,15 +16,15 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid md:grid-cols-2 gap-8">
             <!-- Catering Service -->
-            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-white dark:bg-slate-50 rounded-xl shadow-lg overflow-hidden">
                 <img src="/img/caterer.jpg" alt="Catering Service" class="w-full h-64 object-cover">
                 <div class="p-8">
                     <h2 class="text-2xl font-bold mb-4">Catering Service</h2>
-                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                    <p class="text-gray-600 mb-6">
                         From private parties to corporate events, our catering service brings the beloved taste of Le
                         Bistro to your location. We offer:
                     </p>
-                    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6 space-y-2">
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
                         <li>Customizable menu options</li>
                         <li>Professional service staff</li>
                         <li>Complete setup and cleanup</li>
@@ -34,15 +34,15 @@
             </div>
 
             <!-- DJ and Music Equipment -->
-            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-white dark:bg-slate-50 rounded-xl shadow-lg overflow-hidden">
                 <img src="/img/dj.jpg" alt="DJ and Music Equipment" class="w-full h-64 object-cover">
                 <div class="p-8">
                     <h2 class="text-2xl font-bold mb-4">DJ & Music Equipment</h2>
-                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                    <p class="text-gray-600 mb-6">
                         Set the perfect atmosphere for your event with our professional DJ services and top-tier sound
                         equipment:
                     </p>
-                    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6 space-y-2">
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
                         <li>Professional DJ services</li>
                         <li>High-quality sound systems</li>
                         <li>Lighting equipment</li>
@@ -52,14 +52,14 @@
             </div>
 
             <!-- Photobooth -->
-            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-white dark:bg-slate-50 rounded-xl shadow-lg overflow-hidden">
                 <img src="/img/photobooth.jpg" alt="Photobooth Service" class="w-full h-64 object-cover">
                 <div class="p-8">
                     <h2 class="text-2xl font-bold mb-4">Photobooth</h2>
-                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                    <p class="text-gray-600 mb-6">
                         Capture memorable moments with our modern photobooth service:
                     </p>
-                    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6 space-y-2">
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
                         <li>High-quality instant prints</li>
                         <li>Digital copies provided</li>
                         <li>Fun props and backgrounds</li>
@@ -69,14 +69,14 @@
             </div>
 
             <!-- Foodtruck Rental -->
-            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-white dark:bg-slate-50 rounded-xl shadow-lg overflow-hidden">
                 <img src="/img/foodtruck-rental.jpg" alt="Foodtruck Rental" class="w-full h-64 object-cover">
                 <div class="p-8">
                     <h2 class="text-2xl font-bold mb-4">Foodtruck Rental</h2>
-                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                    <p class="text-gray-600 mb-6">
                         For professionals only, we offer flexible foodtruck rental options:
                     </p>
-                    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mb-6 space-y-2">
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
                         <li>Full-service rental with experienced cook</li>
                         <li>Truck-only rental for professional operators</li>
                         <li>Fully equipped kitchen</li>

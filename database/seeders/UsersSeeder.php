@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\User;
+use Hash;
 use Illuminate\Database\Seeder;
 
 class UsersSeeder extends Seeder
@@ -12,14 +13,10 @@ class UsersSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory()->create([
-            'name' => 'User Name',
-            'email' => 'user@example.com',
-        ]);
-
         $admin_user = User::factory()->create([
             'name' => 'Admin Name',
             'email' => 'admin@example.com',
+            'password' => Hash::make('VidovicGastro.2830!'),
         ]);
         $admin_user->assignRole('admin');
     }

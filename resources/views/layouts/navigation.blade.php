@@ -112,7 +112,7 @@
             <div class="pt-4 pb-1 border-t border-gray-200 dark:border-gray-600">
                 @auth
                     <div class="mb-3">
-                        <div>{{ Auth::user()->name }}</div>
+                        <div class="dark:text-white">{{ Auth::user()->name }}</div>
                         <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
                     </div>
 
@@ -147,7 +147,7 @@
         </div>
     </div>
 
-    <div class="block lg:hidden fixed bottom-0 left-0 w-full h-20 bg-white dark:bg-black z-10">
+    <div class="block lg:hidden fixed bottom-0 left-0 w-full h-20 bg-white dark:bg-[#222222] z-10">
         <div class="h-full px-4 py-2 flex items-center justify-around">
             <x-responsive-tab-link :href="route('home')" :active="request()->routeIs('home')">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

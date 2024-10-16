@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-0">
+    <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-0 bg-slate-50">
         <h1 class="text-4xl font-bold pb-2">{{ __('Menü') }}</h1>
 
         <p class="pb-6">

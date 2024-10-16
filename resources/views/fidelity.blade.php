@@ -13,7 +13,7 @@
 
     <!-- Main Content -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+        <div class="bg-white dark:bg-slate-50 rounded-xl shadow-lg overflow-hidden">
             <div class="p-8">
                 <!-- User Info and QR Code -->
                 <div class="flex flex-col md:flex-row justify-between items-center mb-8">
@@ -40,7 +40,7 @@
                             style="width: {{ max(2, min(100, ($points / 125) * 100)) }}%;">
                         </div>
                     </div>
-                    <p class="text-sm text-gray-600 dark:text-gray-300 mt-2">Progress towards next reward tier</p>
+                    <p class="text-sm text-gray-600 mt-2">Progress towards next reward tier</p>
                 </div>
 
                 <!-- Available Rewards -->
@@ -51,7 +51,7 @@
                             <img src="/img/rewards/reward-{{ $reward->id }}.jpg" alt="{{ $reward->name }}" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="text-xl font-semibold mb-2">{{ $reward->name }}</h3>
-                                <p class="text-gray-600 dark:text-gray-300 mb-4">Points required: <span class="text-orange-400 font-semibold">{{ $reward->points_required }}</span></p>
+                                <p class="text-gray-600 mb-4">Points required: <span class="text-orange-400 font-semibold">{{ $reward->points_required }}</span></p>
                                 @if ($points >= $reward->points_required)
                                     <button class="w-full bg-orange-400 text-white py-2 px-4 rounded-lg hover:bg-orange-500 transition-colors">
                                         Redeem Reward

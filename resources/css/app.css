@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (prefers-color-scheme: dark) {
+    html {
+      color-scheme: light;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+      color-scheme: light;
+    }
+}
+
 h1 {
     font-size: 1.5rem;
     font-weight: 700;

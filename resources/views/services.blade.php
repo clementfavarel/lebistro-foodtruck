@@ -2,7 +2,7 @@
     <!-- Hero Section -->
     <div class="relative h-[40vh] overflow-hidden">
         <div class="absolute inset-0">
-            <img src="img/catering.jpg" alt="Le Bistro Foodtruck Services"
+            <img src="/img/catering.jpg" alt="Le Bistro Foodtruck Services"
                 class="w-full h-full object-cover brightness-50">
         </div>
         <div class="relative h-full flex flex-col justify-center items-center text-white px-4">

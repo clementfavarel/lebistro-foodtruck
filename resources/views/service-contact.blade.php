@@ -2,7 +2,7 @@
     <!-- Hero Section -->
     <div class="relative h-[30vh] overflow-hidden">
         <div class="absolute inset-0">
-            <img src="img/contact-hero.jpg" alt="Contact Us for Services"
+            <img src="/img/catering.jpg" alt="Contact Us for Services"
                 class="w-full h-full object-cover brightness-50">
         </div>
         <div class="relative h-full flex flex-col justify-center items-center text-white px-4">
@@ -111,7 +111,7 @@
 
                     <!-- Budget -->
                     <div class="mt-6">
-                        <label for="budget" class="block text-sm font-medium text-gray-700">Budget</label>
+                        <label for="budget" class="block text-sm font-medium text-gray-700">Budget (in €)</label>
                         <input type="number" name="budget" id="budget" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 dark:bg-gray-700 dark:border-gray-600 dark:text-white" required>
                     </div>
 
